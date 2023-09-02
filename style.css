@@ -1,0 +1,16 @@
+body{
+    overflow: hidden;
+}
+img{
+    height: 15vh;
+    position: absolute;
+    user-select: none;
+}
+.clear{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 24pt;
+    margin: 10px;
+    z-index: 9999;
+}
