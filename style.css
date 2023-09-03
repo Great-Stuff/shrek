@@ -1,5 +1,6 @@
 body{
     overflow: hidden;
+    font-family: Helvetica, sans-serif;
 }
 img{
     height: 7vw;
@@ -11,4 +12,9 @@ img{
     margin: 1px;
     position: absolute;
     z-index: 999;
+}
+.counter{
+    position: absolute;
+    z-index: 999;
+    top: 50px;
 }
