@@ -2,15 +2,13 @@ body{
     overflow: hidden;
 }
 img{
-    height: 15vh;
+    height: 7vw;
     position: absolute;
     user-select: none;
 }
 .clear{
-    position: absolute;
-    bottom: 0;
-    right: 0;
     font-size: 24pt;
-    margin: 10px;
-    z-index: 9999;
+    margin: 1px;
+    position: absolute;
+    z-index: 999;
 }
