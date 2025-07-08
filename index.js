@@ -10,18 +10,18 @@ function count(){
 document.addEventListener("click", (e) => {
     const percent = Math.round(Math.random()*100)
 
-    if(percent <= 100){
+    if(percent <= 1){
         var img = "images/taylor.png"
     }
-    else if (percent <= 0){
+    else if (percent <= 5){
         var img = "images/weird-shrek-4.png"
         count()
     }
-    else if (percent <= 0){
+    else if (percent <= 25){
         var img = "images/silly-shrek-36.png"
         count()
     }
-    else if (percent <= 0){
+    else if (percent <= 40){
         var img = "images/shrek-bathroom-20.png"
         count()
     }
